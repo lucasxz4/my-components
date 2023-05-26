@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    
+    <main>
+        <article class="left">
+            <div class="imagem">
+                <img src="images/photo.png" alt="Perfil">
+            </div>
+            <div class="nav">
+                <a href="index.html"><p>Home</p></a>
+                <a href="tipografia.html"><p>Tipografia</p></a>
+                <a href="cards.html"><p>Cards</p></a>
+                <a href="lista.html"><p>Listas</p></a>
+                <a href="formulario.html"><p>Formulário</p></a>
+                <a href="tabelas.html"><p>Tabelas</p></a>
+            </div>
+        </article>
+
+
+        <article class="right">
+            <div class="header">
+                <h1>Formulário</h1>
+                <p>São um dos principais pontos de interação entre um usuário e um web site ou aplicativo</p> <br>
+                <p>Eles permitem que os usuários enviem dados para o web site. Na maior parte do tempo, os dados são enviados para o servidor da web, mas a página da web também pode interceptar para usá-los por conta própria.</p>
+            </div> <br>
+
+            <hr><br>
+
+            <form action="">
+                <div class="nameAndEmail"> <!--flex-row-->
+                    <div class="nome">
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" required placeholder="Nome completo">
+                    </div>
+                    <div class="email">
+                        <label for="iemail">Email</label>
+                        <input type="email" name="email" id="iemail" required placeholder="Digite um email válido">
+                    </div>
+                </div>
+
+                <div class="message">
+                    <label for="imessage">Digite sua mensagem</label>
+                    <textarea name="msg" id="imessage" cols="30" rows="10"></textarea>
+                </div>
+
+                <div id="btn">
+                    <input type="submit" class="btn" value="Enviar">
+                </div>
+            </form>
+
+        </article>
+    </main>
+
+</body>
+</html>

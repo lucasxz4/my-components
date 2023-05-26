@@ -1,0 +1,101 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    background-image: url(images/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Inter';
+}
+
+main {
+    height: 100vh;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.445), rgba(20, 20, 20, 0.479));
+    display: flex;
+    gap: 3em;
+}
+
+.left {
+    width: 15%;
+    background-color: rgba(17, 17, 17, 0.500);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px 10px 0px 10px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1.4rem; */
+}
+
+.nav a {
+    width: 100%;
+    border-bottom: 1px solid #fafafa7c;
+    text-decoration: none;
+    text-align: right;
+    color: #fff;
+    line-height: 3;
+}
+
+.nav a:hover {
+    background-color: #444856;
+}
+
+.right {
+    width: 400px;
+}
+
+.right h1 {
+    color: #FF7833;
+    padding: 70px 0px 20px 0px;
+    font-size: 2.5rem;
+}
+
+.right p {
+    color: #e7e7e7;
+    margin-bottom: 30px;
+}
+
+.right p a {
+    color: #e7e7e7;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.right p a:hover {
+    text-decoration: underline;
+}
+
+.right h2 {
+    font-size: 2.2rem;
+    color: #ff7733cc;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.right ul {
+    display: flex;
+    gap: 1.3rem;
+}
+
+.right ul li {
+    list-style-type: none;
+}
+
+.right ul li a {
+    color: #fafafa;
+    text-decoration: none;
+}

@@ -1,2 +1,3 @@
-# my-components
- Components Page
+Components page
+
+*Apenas para a versão desktop!
